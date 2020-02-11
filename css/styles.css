@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+header{
+    height: 100vh;
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.hd-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+ }
+ .hd-text{
+    font-family: 'Caveat', cursive; 
+ }
+ .lp-3{letter-spacing: 4px;}
+.hd-title{
+    font-family: 'Caveat', cursive;
+    font-size: 5em;
+    letter-spacing: 3px;
+}
+.hd-subtext{
+    font-family: 'Caveat', cursive;
+    letter-spacing: 5px;
+ }
+ .logo-camp{
+     width: auto;
+     height: 500px;
+     fill: white;
+ }
+ .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-128 { font-size: 128px; }
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
