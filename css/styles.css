@@ -7,6 +7,7 @@ header{
     background: linear-gradient(to bottom, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+.text-white{ color:white}
 .hd-content{
     display: flex;
     justify-content: space-around;
@@ -17,6 +18,7 @@ header{
     font-family: 'Caveat', cursive; 
  }
  .lp-3{letter-spacing: 4px;}
+
 .hd-title{
     font-family: 'Caveat', cursive;
     font-size: 5em;
@@ -60,6 +62,7 @@ header{
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 .material-icons.md-128 { font-size: 128px; }
+
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
@@ -67,3 +70,26 @@ header{
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.footer-bg{
+    height: 100%;
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+a .fa-facebook,
+a .fa-twitter,
+a .fa-instagram,
+a .fa-youtube {
+   color:white;
+   font-size: 30px;
+   margin-right: 5px;
+}
+.fa-facebook:hover { color: #3b5999;}
+.fa-twitter:hover {color:#55acee;}
+.fa-instagram:hover{color:#e95950;}
+.fa-youtube:hover{color:#ff0000;}
+
+.nav-bg{
+    color: white;
+    background: #c94b4b;  /* fallback for old browsers */}
