@@ -63,6 +63,9 @@ header{
 .material-icons.md-48 { font-size: 48px; }
 .material-icons.md-128 { font-size: 128px; }
 
+.terrain{
+
+}
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
@@ -74,8 +77,8 @@ header{
 .footer-bg{
     height: 100%;
     background: #c94b4b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    background: -webkit-linear-gradient(to bottom, #c94b4b, #4b134f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #c94b4b, #4b134f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }
 a .fa-facebook,
 a .fa-twitter,
@@ -89,7 +92,7 @@ a .fa-youtube {
 .fa-twitter:hover {color:#55acee;}
 .fa-instagram:hover{color:#e95950;}
 .fa-youtube:hover{color:#ff0000;}
-
+.w-100{ width: 100%;}
 .nav-bg{
     color: white;
     background: #c94b4b;  /* fallback for old browsers */}
