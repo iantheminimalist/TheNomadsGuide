@@ -2,10 +2,12 @@
 
 header{
     height: 100vh;
-    background: #c94b4b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    /* fallback for old browsers */
+    background: #c94b4b;  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, #4b134f, #c94b4b); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #4b134f, #c94b4b); 
 }
 .text-white{ color:white}
 .hd-content{
@@ -57,15 +59,17 @@ header{
     font-feature-settings: 'liga';
   }
   /* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-.material-icons.md-128 { font-size: 128px; }
+.material-icons.md-18, .material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons.md-24, .material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons.md-36, .material-icons-outlined.md-36 { font-size: 36px; }
+.material-icons.md-48, .material-icons-outlined.md-48 { font-size: 48px; }
+.material-icons.md-60, .material-icons-outlined.md-60 { font-size: 60px; }
+.material-icons.md-100, .material-icons-outlined.md-100 { font-size: 100px; }
+.material-icons.md-128, .material-icons-outlined.md-128 { font-size: 128px; }
 
-.terrain{
-
-}
+.material-icons-outlined.terrain600{ color:#c94b4b;}
+.material-icons-outlined.pools100{color:#4bb8c9;}
+.material-icons-outlined.orange600 { color: #FB8C00; }
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
@@ -93,6 +97,22 @@ a .fa-youtube {
 .fa-instagram:hover{color:#e95950;}
 .fa-youtube:hover{color:#ff0000;}
 .w-100{ width: 100%;}
-.nav-bg{
+.nav-bg{ 
     color: white;
-    background: #c94b4b;  /* fallback for old browsers */}
+    background: #c94b4b;  /* fallback for old browsers */
+}
+.bg-dark{
+    background-color: #343a40 !important;
+}
+
+.img-100{
+    width: auto;
+    height: 100px;
+}
+.forest-bg{
+    background: url("https://res.cloudinary.com/dvdqlvy48/image/upload/v1541483758/man-1246233_1920.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
