@@ -116,3 +116,6 @@ a .fa-youtube {
     -o-background-size: cover;
     background-size: cover;
 }
+.navigate li a{
+    color:white !important;
+}
