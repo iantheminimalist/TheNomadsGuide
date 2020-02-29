@@ -116,6 +116,18 @@ a .fa-youtube {
     -o-background-size: cover;
     background-size: cover;
 }
+.mountain-bg {
+    background: url("https://res.cloudinary.com/dvdqlvy48/image/upload/v1541539776/rocky-mountains-1149162_1920.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
 .navigate li a{
     color:white !important;
+}
+.hike{
+    background: url("https://res.cloudinary.com/dvdqlvy48/image/upload/v1582999487/wanderer-455338_640.jpg");
+    height: 10vh;
+    width: 10vh;
 }
